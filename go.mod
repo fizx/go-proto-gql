@@ -17,3 +17,5 @@ require (
 	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.0.1
 	google.golang.org/protobuf v1.25.0
 )
+
+replace github.com/danielvladco/go-proto-gql => github.com/fizx/go-proto-gql master
