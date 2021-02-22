@@ -32,7 +32,7 @@ func Generate(p *protogen.Plugin) error {
 		g.P("package ", file.GoPackageName)
 		//InitFile(file)
 		for _, svc := range file.Services {
-			g.P(`type `, svc.GoName, `Resolvers struct { Service `, svc.GoName, `Server }`)
+			g.P(`type `, svc.GoName, `Resolvers struct { Service `, svc.GoName, `Client }`)
 			for _, rpc := range svc.Methods {
 				// TODO handle streaming
 				if rpc.Desc.IsStreamingClient() || rpc.Desc.IsStreamingServer() {
