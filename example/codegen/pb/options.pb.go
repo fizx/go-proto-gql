@@ -7,7 +7,7 @@
 package pb
 
 import (
-	_ "github.com/danielvladco/go-proto-gql/pb"
+	_ "github.com/fizx/go-proto-gql/pb"
 	proto "github.com/golang/protobuf/proto"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

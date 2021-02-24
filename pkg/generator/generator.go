@@ -10,7 +10,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	descriptor "google.golang.org/protobuf/types/descriptorpb"
 
-	gqlpb "github.com/danielvladco/go-proto-gql/pb"
+	gqlpb "github.com/fizx/go-proto-gql/pb"
 )
 
 func NewSchemas(files []*desc.FileDescriptor, mergeSchemas, genServiceDesc bool) (schemas SchemaDescriptorList, _ error) {

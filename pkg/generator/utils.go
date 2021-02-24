@@ -8,7 +8,7 @@ import (
 	"github.com/jhump/protoreflect/desc"
 	"google.golang.org/protobuf/proto"
 
-	gqlpb "github.com/danielvladco/go-proto-gql/pb"
+	gqlpb "github.com/fizx/go-proto-gql/pb"
 )
 
 func getMethodType(rpc *desc.MethodDescriptor) gqlpb.Type {

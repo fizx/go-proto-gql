@@ -12,8 +12,8 @@ import (
 	"github.com/nautilus/gateway"
 	"github.com/nautilus/graphql"
 
-	"github.com/danielvladco/go-proto-gql/pkg/generator"
-	"github.com/danielvladco/go-proto-gql/pkg/server"
+	"github.com/fizx/go-proto-gql/pkg/generator"
+	"github.com/fizx/go-proto-gql/pkg/server"
 )
 
 type Config struct {
