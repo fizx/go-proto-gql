@@ -16,7 +16,7 @@ import (
 	descriptor "google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/danielvladco/go-proto-gql/pkg/generator"
+	"github.com/fizx/go-proto-gql/pkg/generator"
 )
 
 func main() {

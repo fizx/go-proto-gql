@@ -9,9 +9,9 @@ import (
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
 
-	"github.com/danielvladco/go-proto-gql/example/codegen/gql/constructs"
-	"github.com/danielvladco/go-proto-gql/example/codegen/gql/options"
-	"github.com/danielvladco/go-proto-gql/example/codegen/pb"
+	"github.com/fizx/go-proto-gql/example/codegen/gql/constructs"
+	"github.com/fizx/go-proto-gql/example/codegen/gql/options"
+	"github.com/fizx/go-proto-gql/example/codegen/pb"
 )
 
 const defaultPort = "8088"

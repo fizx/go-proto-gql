@@ -10,7 +10,7 @@ import (
 	"github.com/jhump/protoreflect/dynamic/grpcdynamic"
 	"google.golang.org/grpc"
 
-	"github.com/danielvladco/go-proto-gql/pkg/reflection"
+	"github.com/fizx/go-proto-gql/pkg/reflection"
 )
 
 type Caller interface {
@@ -56,7 +56,7 @@ func NewReflectCaller(endpoints []string) (*caller, []*desc.FileDescriptor, []st
 		//p := d.AsFileDescriptorProto()
 		//n := fmt.Sprintf("_%d_%s", i, p.GetName())
 		//p.Name = &n
-		//gopkg := "github.com/danielvladco/go-proto-gql/reflect/grpcserver1/pb;pb"
+		//gopkg := "github.com/fizx/go-proto-gql/reflect/grpcserver1/pb;pb"
 		//p.Options.GoPackage = &gopkg
 		filesToGenerate = append(filesToGenerate, d.AsFileDescriptorProto().GetName())
 		//protoFiles = append(protoFiles, p)

@@ -11,7 +11,7 @@ import (
 	"github.com/jhump/protoreflect/desc/protoparse"
 	"github.com/vektah/gqlparser/v2/formatter"
 
-	"github.com/danielvladco/go-proto-gql/pkg/generator"
+	"github.com/fizx/go-proto-gql/pkg/generator"
 )
 
 type arrayFlags []string

@@ -6,4 +6,4 @@ exec:
   package: options
 
 autobind:
-  - "github.com/danielvladco/go-proto-gql/example/codegen/pb"
+  - "github.com/fizx/go-proto-gql/example/codegen/pb"
